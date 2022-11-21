@@ -56,12 +56,7 @@ KeyboardInputManager.prototype.listen = function () {
         self.emit("move", mapped);
       }
 
-      if (event.which === 32){
-        var game_restart = confirm('Are you sure?');
-        if(game_restart == true){
-          self.restart.bind(self)(event);
-        }
-      };
+      if (event.which === 32) self.restart.bind(self)(event);
     }
   });
 
