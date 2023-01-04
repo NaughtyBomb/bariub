@@ -421,10 +421,14 @@ hr {
     color: #a28454;
     background: #5d5d5d;
     font-size: 25px; }
+  .tile.tile-70000 .tile-inner {
+    color: #a28454;
+    background: #5d5d5d;
+    font-size: 25px; }
   .tile.tile-1000000 .tile-inner {
     color: #fefaf6;
     background: #d0a57d;
-    font-size: 10px; }                    
+    font-size: 18px; }                    
   .tile.tile-750 .tile-inner {
     color: #ffffff;
     background: #d0a57d;
