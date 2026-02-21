@@ -59,12 +59,12 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.99999996 ? Math.random() < 0.999999 ? Math.random() < 0.99995 ? Math.random() < 0.9999375 ? Math.random() < 0.9999 ? Math.random() < 0.99975 ? Math.random() < 0.9995 ? Math.random() < 0.999 ? Math.random() < 0.998 ? Math.random() < 0.98 ? Math.random() < 0.9333333333333333333 ? Math.random() < 0.8 ? Math.random() < 0.5 ? Math.random() < 0.5 ? 1 : 2 : Math.random() < 0.5 ? 3 : Math.random() < 0.999 ? 4 : -4 : Math.random() < 0.999 ? 5 : -5 : Math.random() < 0.666666666666666666 ? 6 : 7 : Math.random() < 0.75 ? 8 : 9 : 10 : Math.random() < 0.9 ? 0 : -1 : 11 : 12 : 13 : 16 : 20 : 99 : 82;
+    var value = Math.random() < 0.999999 ? Math.random() < 0.958333333333333333333 ? Math.random() < 0.9565217391304347826 ? Math.random() < 0.9545454545454545454 ? Math.random() < 0.9523809523809523809 ? Math.random() < 0.95 ? Math.random() < 0.9473684210526315789 ? Math.random() < 0.9444444444444444444 ? Math.random() < 0.9411764705882352941 ? Math.random() < 0.9375 ? Math.random() < 0.9333333333333333333 ? Math.random() < 0.9285714285714285714 ? Math.random() < 0.9230769230769230769 ? Math.random() < 0.91666666666666666666 ? Math.random() < 0.9090909090909090909 ? Math.random() < 0.9 ? Math.random() < 0.888888888888888888 ? Math.random() < 0.875 ? Math.random() < 0.857142857142857142 ? Math.random() < 0.8333333333333333333 ? Math.random() < 0.8 ? Math.random() < 0.75 ? Math.random() < 0.666666666666666666 ? Math.random() < 0.5 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 8 : 9 : 10 : 11 : 12 : 13 : 16 : 20 : 30 : 60 : 82 : 99 : 98 : -2 : -4 : -5 : -8 : 97;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
-    if (tile.value === 99) this.over = true;
-    if (tile.value === 82) this.won = true;
+    if (tile.value === 97) this.over = true;
+    if (tile.value === 83) this.won = true;
   }
 };
 
